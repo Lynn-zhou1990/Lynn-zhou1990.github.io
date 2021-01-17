@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<title>Lynn Zhou</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-overview">
+	<nav id="main-menu">
+		<ul class="topnav">
+			<li><a class="active" href="index.html"><b>Portfolio</b></a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="">Instagram</a></li>
+		</ul>
+	</nav>
+	<div>
+		<img id="banner" src="image/1.gif">
+		<div id="maintitle">
+			<p id="name">ARTWORK</p>
+			<p id="detail">Charcoal drawing</p>
+			<img id="artwork" src="image/a1.png">
+			<p id="detail">
+				This is a random created of art work that with an oil palette and different colors
+				of oil paints and acrylic. The white acrylic paint is scraped and daubed on the
+				painting board at will and boldly with the oil painting scraper to create a uneven
+				texture feeling. It should not be deliberately released, the body and mind should
+				be competely released together, and it should be created boldly and random
+				without thinking too much. Then, sprinkle different colors of oil paint on the
+				texture surface and let it flow freely and naturally along the texture surface.
+				The creative process put the emotion of open and free into my activity.			
+			</p>
+			<img id="artwork" src="image/a2.png">
+
+		</div>
+	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+	<script>
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () { scrollFunction() };
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+</body>
+
+</html>

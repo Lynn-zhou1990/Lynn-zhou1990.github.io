@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Calibri', Helvetica, sans-serif;
+  background: white;
+  color: #333;
+}
+/* Main Menu */
+#main-menu {
+  padding: 0 6%;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 20px;
+  overflow: hidden;
+}
+ul.topnav li {
+  float: left;
+}
+ul.topnav li a {
+  display: inline-block;
+  font-family: Seravek;
+  color: #999;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+ul.topnav li a.active {
+  color: #333;
+}
+ul.topnav li a:hover {
+  color: #666;
+}
+ul.topnav li a:active {
+  color: #333;
+}
+/* Body */
+#banner {
+  width: 100%;
+  text-align: center;
+}
+#maintitle {
+  padding: 10% 0 20% 0;
+  text-align: center;
+}
+
+#name {
+  font-family: 'Arial Rounded MT Bold';
+  font-size: 100px;
+}
+#detail {
+  font-family: Seravek;
+  color: #999;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 20px 300px;
+  text-align: left;
+}
+
+#left,
+#right {
+  width: 60%;
+}
+#right {
+  float: right;
+}
+#title {
+  width: 40%;
+  float: right;
+  text-align: center;
+  padding-top: 22%;
+}
+#h1 {
+  font-family: Avenir Next;
+  font-size: 40px;
+  color: #000;
+}
+#h2 {
+  font-family: Seravek;
+  font-size: 20px;
+  color: #999;
+}
+section {
+  background-color: #dedede;
+}
+section:hover {
+  background-color: black;
+  color: white;
+}
+section:hover #h1 {
+  color: #fff;
+}
+.page-overview > a {
+  display: block;
+}
+.page-overview > a section {
+  display: block;
+  overflow: hidden;
+}
+/* about */
+#me {
+  width: 100%;
+}
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px;
+}
+.icon {
+  margin-top: 100px;
+  text-align: center;
+}
+.icon .iconbg {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: #dedede;
+  padding: 40px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.icon .iconbg:hover {
+  background-color: #000;
+}
+.icon .iconbg a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.icon .iconbg a img {
+  width: 60px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* email */
+input[type=text],
+select {
+  font-family: Calibri;
+  font-size: 20px;
+  width: 50%;
+  padding: 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  font-family: Calibri;
+  font-size: 20px;
+  width: 50%;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#message {
+  padding: 20px 20px 80px 20px;
+}
+input[type=submit]:hover {
+  background-color: black;
+}
+/* happy */
+#happy {
+  width: 100%;
+  padding: 20px 0;
+}
+/* baker */
+#baker {
+  width: 100%;
+  padding: 20px 0;
+}
+/* artwork */
+#artwork {
+  width: 100%;
+  padding: 20px 0;
+}
+/* other */
+#other {
+  width: 100%;
+  padding: 20px 0;
+}
+#maintitle h1 {
+  text-align: left;
+  padding: 20px 300px;
+}
+#maintitle #name {
+  text-align: left;
+  padding: 20px 300px;
+}
+@media screen and (max-width: 980px) {
+  #detail {
+    padding: 20px 10px;
+  }
+  #maintitle {
+    padding: 0 30px;
+  }
+  #maintitle h1 {
+    text-align: left;
+    padding: 0;
+    font-size: 8vw;
+  }
+  #maintitle #name {
+    font-size: 14vw;
+    text-align: left;
+    padding: 0;
+  }
+  #maintitle #detail {
+    font-size: 3vw;
+  }
+  #maintitle #detail h1 {
+    text-align: left;
+    padding: 0;
+  }
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+}

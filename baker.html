@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<title>Lynn Zhou</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-overview">
+	<nav id="main-menu">
+		<ul class="topnav">
+			<li><a class="active" href="index.html"><b>Portfolio</b></a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="">Instagram</a></li>
+		</ul>
+	</nav>
+	<div>
+		<img id="banner" src="image/1.gif">
+		<div id="maintitle">
+			<p id="name">BAKER APP</p>
+			<p id="detail">Baker App is a time management App. It’s a product that based on
+				Time Doser App to redesign. In modern society, because our
+				lifestyle become more fast than before, and have a lot of work to
+				deal with, in a twinkling, time passes quickly. However, there also
+				leave many works to deal with. Sometimes, people become
+				anxious due to time pressure.			 
+			</p>
+			<h1>Problem & Challenge</h1>
+			<p id="detail">
+				Will be solved the problem is : <font color="#666">Help reduce time-related pressure.</font>
+			</p>
+			<h1>Analysis & Solution</h1>
+			<p id="detail">
+				<font color="#666">Product selection: </font>I heard someone used a Time Doser App that
+				solved their the problem of time management, so I find the product 
+				of Time Doser App.<br>
+				<font color="#666">Analysis of product: </font>By doing user research to get the informations of
+				user experience and use of product. Accroding to the results of 
+				research to find the disadvantage of product or the problems that
+				are improved to redesign. It will be more effectively help people
+				to improve the efficiency of time management than before. In the
+				meantime, the work and life will be more relaxed.      				
+			</p>
+			
+			<img id="baker" src="image/b1.png">
+			<video width="100%" controls autoplay>
+				<source src="image/2.mp4" type="video/mp4">
+			</video>
+			<p id="detail">
+				User research
+			</p>
+			<img id="baker" src="image/b2.png">
+			<p id="detail">
+				Competitive analysis
+			</p>
+			<img id="baker" src="image/b3.png">
+			<img id="baker" src="image/b4.png">
+			<img id="baker" src="image/b5.png">
+			<img id="baker" src="image/b6.png">
+			<img id="baker" src="image/b7.png">
+
+		</div>
+	</div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+	<script>
+		//Get the button
+		var mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () { scrollFunction() };
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+</body>
+
+</html>
